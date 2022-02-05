@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <locale.h>
+int main ()
+{
+      int A,B,C,D,E;
+      A=1;
+      B=9;
+      C=6;
+      D=7;
+      E=5;
+      printf("Digite o primeiro digito da sua senha : ");
+      scanf("%d", &A);
+      printf("Digite o segundo digito da sua senha : ");
+      scanf("%d" , &B);
+      printf("Digite o terceiro digito da sua senha : ");
+      scanf("%d", &C);
+      printf("Digite o quarto digito da sua senha : ");
+      scanf("%d", &D);
+      printf("Digite o quinto digito da sua senha : ");
+      scanf("%d", &E);
+       if(A==1 && B==9 && C==6 && D==7 && E==5 )
+       {
+       printf("\n***Porta Aberta***");
+       scanf("%d", &A ,&B , &C , &D , &E);
+       }
+
+       else
+       {
+       printf("\nSequencia incorreta");
+      }
+return(0);
+}
+2-S
